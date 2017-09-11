@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout 布局\ ['leɪaʊt]</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #container {
+            width: 1000px;
+            background-color: #ddd;
+            margin: auto;
+        }
+
+        #header {
+            height: 200px;
+        }
+
+        #left {
+            padding: 20px;
+            width: 260px;
+            background-color: #666;
+        }
+
+        #center {
+            width: 398px;
+            background-color: #999;
+            border: 1px dashed red;
+        }
+
+        #right {
+            width: 300px;
+            background-color: #ccc;
+        }
+
+        #left,
+        #center,
+        #right {
+            color: #fff;
+            float: left;
+            height: 1000px;
+        }
+
+        #footer {
+            height: 300px;
+        }
+
+        #header,
+        #footer {
+            color: #ddd;
+            background-color: #333;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">header...</div>
+    <div id="content">
+        <div id="left">left...</div>
+        <div id="center">center...</div>
+        <div id="right">right...</div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer">footer...</div>
+</div>
+</body>
+</html>

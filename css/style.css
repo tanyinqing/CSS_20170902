@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+}
+
+#container {
+    border: 1px solid red;
+    /*padding: 1px;*/
+}
+
+#box1,
+#box2,
+#box3 {
+    padding: 20px;
+    border: 10px dashed #3194d0;
+    margin: 50px;
+    background-color: #ddd;
+}
+
+#box1 {
+    float: left; /* float 浮动\ [fləʊt] */
+    background-color: transparent;
+    border-color: #2f2f2f;
+    margin-bottom: 100px;
+}
+
+#box3 {
+    float: right;
+}
+
+#box2 {
+    float: right;
+    background-color: #42c02e;
+    border-style:solid;
+}
+
+.clear {
+    clear: both;
+}

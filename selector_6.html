@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { /* 通配符 wildcard 野牌 外卡 癞子 会 */
+            margin: 0; /* 外边距 */
+            padding: 0; /* ul ol dl */
+        }
+
+        a {
+            font-size: 5em;
+            text-decoration: none;
+        }
+
+        a:link {
+            background-color: #ff0;
+        }
+
+        a:visited {
+            background-color: cornflowerblue;
+        }
+
+        a:hover {
+            background-color: lightgreen;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        div:hover {
+            cursor: crosshair;
+        }
+
+        a::before {
+            content: 'test';
+            color: red;
+        }
+
+        input::selection {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<a class="red" href="http://test-bing.com" title="test- title">必应</a>
+<div>
+    div...
+</div>
+<input>
+</body>
+</html>
